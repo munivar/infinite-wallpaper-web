@@ -1,0 +1,112 @@
+@font-face {font-family: AryaRegular;src: url(/font/AryaRegular.ttf);}
+@font-face {font-family: AryaBold;src: url(/font/AryaBold.ttf);}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background: #181818;
+}
+/* Navigationbar */
+#navbar{
+    background: linear-gradient(rgba(0, 0, 0, 0.664), transparent);
+    font-family: AryaBold;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;  
+    position: fixed;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul a{
+    text-decoration: none;
+}
+#navbar li{
+    font-size: 24px;
+    font-family: AryaBold;
+    flex-wrap: wrap;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+#navbar li:hover{
+    color: rgb(255, 96, 154);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.head2{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: AryaBold;
+    font-size: 24px;
+    /* border: 2px solid red; */
+    margin: 5px 0px;
+    padding:10px 25px;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: rgb(255, 96, 154);
+}
+.paragraph{
+    font-size: 20px;
+    font-family: AryaRegular;
+    text-align: center;
+    padding: 0px 5px;
+}
+.paragraph1{
+    /* border: 2px solid yellow; */
+    margin-top: 60px;
+}
+.paragraph3{
+    /* border: 2px solid violet; */
+    margin-top: 100px;
+}
+.boldtext{
+    font-size: 22px;
+}
+/* Top Button */
+#myBtn {
+    font-family:AryaBold;
+    font-weight: bold;
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 25px; 
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    color: white; 
+    cursor: pointer; 
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 0px 12px;
+    background-color: rgba(80, 80, 80, 0.74);
+}
+  
+#myBtn:hover {
+    box-shadow: 3px 2px 35px rgba(0, 0, 0, 0.623);
+    transition-duration: 0.4s;
+    color:rgb(255, 96, 154);
+}
+
+/* Max-Width:500px */
+@media screen and (max-width:500px){
+    #navbar{
+        position: relative;
+    }
+    #navbar li{
+        color: rgb(255, 96, 154);
+    }
+}

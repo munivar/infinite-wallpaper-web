@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals Wallpaper</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <ul>
+                <a href="/index.html" style="text-decoration: none;"><li>Home</li></a>
+                <a href="/mainhtml/popular.html" style="text-decoration: none;"><li>Popular</li></a>
+                <a href="/mainhtml/favorite.html" style="text-decoration: none;"><li>Favorite</li></a>
+                <a href="/mainhtml/contactus.html" style="text-decoration: none;"><li>Contact Us</li></a>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <p class="head2">Animals Wallpaper</p>
+    </div>
+    <section class="photo">
+        <div class="box">
+            <a href="/images/Animal/Brotherly cubs.jpg" target="_blank"><img src="/images/Animal/Brotherly cubs.jpg" alt="Brotherly Cubes"></a>
+            <p>Brotherly Cubes</p>
+        </div>
+        <div class="box">
+            <a href="/images/Animal/Canada'sLargestBird.jpg" target="_blank"><img src="/images/Animal/Canada'sLargestBird.jpg" alt="Canada's Largest Bird"></a>
+            <p>Canada's Largest Bird</p>
+        </div>
+        <div class="box">
+            <a href="/images/Animal/ColorfulEgg.jpg" target="_blank"><img src="/images/Animal/ColorfulEgg.jpg" alt="Colorful Egg"></a>
+            <p>Colorful Egg</p>
+        </div>
+        <div class="box">
+            <a href="/images/Animal/Greater flamingos arrived in India.jpg" target="_blank"><img src="/images/Animal/Greater flamingos arrived in India.jpg" alt="Greater flamingos"></a>
+            <p>Greater flamingos</p>
+        </div>
+        <div class="box">
+            <a href="/images/Animal/KleineBird.jpg" target="_blank"><img src="/images/Animal/KleineBird.jpg" alt="Kleine Bird"></a>
+            <p>Kleine Bird</p>
+        </div>
+        <div class="box">
+            <a href="/images/Animal/mountain bluebird.jpg" target="_blank"><img src="/images/Animal/mountain bluebird.jpg" alt="Mountain Bluebird"></a>
+            <p>Mountain Bluebird</p>
+        </div>
+        <div class="box">
+            <a href="/images/Animal/RiversideBird.jpg" target="_blank"><img src="/images/Animal/RiversideBird.jpg" alt="Riverside Bird"></a>
+            <p>Riverside Bird</p>
+        </div>
+        <div class="box">
+            <a href="/images/Animal/the crimson rosella.jpg" target="_blank"><img src="/images/Animal/the crimson rosella.jpg" alt="The Crimson Rosella"></a>
+            <p>The Crimson Rosella</p>
+        </div>
+    </section>
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button:
+            mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+    </div>
+</body>
+</html>

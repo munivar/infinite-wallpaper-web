@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="contactus.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <ul>
+                <a href="/index.html" style="text-decoration: none;"><li>Home</li></a>
+                <a href="/mainhtml/favorite.html" style="text-decoration: none;"><li>Popular</li></a>
+                <a href="/mainhtml/favorite.html" style="text-decoration: none;"><li>Favorite</li></a>
+                <a href="/mainhtml/contactus.html" style="text-decoration: none;"><li>Contact Us</li></a>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <p class="head2">Contact Us</p>
+    </div>
+    <div class="paragraph">
+        <p class="paragraph1"><strong class="boldtext">Infinite Wallpaper</strong> Provide 1000+ Wallpaper Worldwide. We make it Easy to use Interface for Everyone. So, You can Improve your Productivity. Enjoy 4K Wallpaper for Free...</p>
+        <p class="paragraph2"><strong class="boldtext">For Devlopers :</strong>
+            <br>
+            If you want Showcase your Art. Please Contact us Using this 
+            Mail ID:-Dbd5395@gmail.com
+        </p>
+        <p class="paragraph3"><strong class="boldtext"></strong>Thanks for Visit Our Website.</strong></p>
+        <p class="paragraph4">&copy;2021 | India</p>
+    </div>
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button:
+            mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+    </div>
+</body>
+</html>

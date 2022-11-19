@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Wallpaper</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <ul>
+                <a href="/index.html" style="text-decoration: none;"><li>Home</li></a>
+                <a href="/mainhtml/popular.html" style="text-decoration: none;"><li>Popular</li></a>
+                <a href="/mainhtml/favorite.html" style="text-decoration: none;"><li>Favorite</li></a>
+                <a href="/mainhtml/contactus.html" style="text-decoration: none;"><li>Contact Us</li></a>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <p class="head2">Culture Wallpaper</p>
+    </div>
+    <section class="photo">
+        <div class="box">
+            <a href="/images/Culture/bridge.jpg" target="_blank"><img src="/images/Culture/bridge.jpg" alt="Bridge"></a>
+            <p>Bridge</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/Celebrate Music.jpg" target="_blank"><img src="/images/Culture/Celebrate Music.jpg" alt="Celebrate Music"></a>
+            <p>Celebrate Music</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/Celebrating Ratha Yatra.jpg" target="_blank"><img src="/images/Culture/Celebrating Ratha Yatra.jpg" alt="Celebrate Ratha Yatra"></a>
+            <p>Celebrate Ratha Yatra</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/Culture.jpg" target="_blank"><img src="/images/Culture/Culture.jpg" alt="Culture"></a>
+            <p>Culture</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/Impregnable fort.jpg" target="_blank"><img src="/images/Culture/Impregnable fort.jpg" alt="Impregnable Fort"></a>
+            <p>Impregnable Fort</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/Oldest wooden bridge.jpg" target="_blank"><img src="/images/Culture/Oldest wooden bridge.jpg" alt="Oldest Wooden Bridge"></a>
+            <p>Oldest Wooden Bridge</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/The most revered Buddhist site.jpg" target="_blank"><img src="/images/Culture/The most revered Buddhist site.jpg" alt="The Most Revered Buddhist Site"></a>
+            <p>The Most Revered Buddhist Site</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/The Taj Mahal.jpg" target="_blank"><img src="/images/Culture/The Taj Mahal.jpg" alt="The Taj Mahal"></a>
+            <p>The Taj Mahal</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/The Witness Blanket.jpg" target="_blank"><img src="/images/Culture/The Witness Blanket.jpg" alt="TheWitness Blanket"></a>
+            <p>TheWitness Blanket</p>
+        </div>
+    </section>
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button:
+            mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+    </div>
+</body>
+</html>

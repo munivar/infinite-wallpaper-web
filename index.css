@@ -1,0 +1,272 @@
+@font-face {font-family: AryaRegular;src: url(/font/AryaRegular.ttf);}
+@font-face {font-family: AryaBold;src: url(/font/AryaBold.ttf);}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background: #181818;
+}
+/* Navigationbar */
+#navbar{
+    background: linear-gradient(rgba(0, 0, 0, 0.664), transparent);
+    font-family: AryaBold;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;  
+    position: fixed;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    /* border: 2px solid yellow; */
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul a{
+    text-decoration: none;
+}
+#navbar li{
+    font-size: 24px;
+    font-family: AryaBold;
+    flex-wrap: wrap;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+#navbar li:hover{
+    color: rgb(255, 96, 154);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+/* Main Content */
+.maincontainer{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    margin-top: 40px;
+}
+.maincontainer p{ 
+    border: 1px solid rgb(66, 66, 66);
+    height: 250px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(66, 66, 66);
+}
+.maincontainer p:hover{
+    box-shadow: 0px 0px 0px rgb(66,66,66);
+    transition-duration: 0.4s;
+}
+.maincontainer span{
+    font-family: AryaBold;
+    font-size: 30px;
+    /* border: 1px solid yellow; */
+    padding: 65px 25px;
+}
+.maincontainer a{
+    text-decoration: none;
+}
+#mainimg1{
+    background: url(/images/Mainimg/Surface\ Book\ -\ Blue.jpg);
+}
+#mainimg2{
+    background: url(/images/Mainimg/Nature3.jpg);
+}
+#mainimg3{
+    background: url(/images/Mainimg/Win11White.jpg);
+}
+#mainimg4{
+    background: url(/images/Mainimg/Surface\ Desktop.jpg);
+}
+#mainimg5{
+    background: url(/images/Mainimg/The\ most\ revered\ Buddhist\ site.jpg);
+}
+#mainimg6{
+    background: url(/images/Mainimg/the\ crimson\ rosella.jpg);
+}
+#mainspan1:hover{
+    padding: 98px 93px;
+    transition-duration: 0.4s;
+    background-color: rgba(37, 37, 37, 0.733);
+    color: rgb(255, 96, 154);
+}
+#mainspan2:hover{
+    padding: 98px 99px;
+    transition-duration: 0.4s;
+    background-color: rgba(37, 37, 37, 0.733);
+    color: rgb(255, 96, 154);
+}
+#mainspan3:hover{
+    padding: 98px 85px;
+    transition-duration: 0.4s;
+    background-color: rgba(37, 37, 37, 0.733);
+    color: rgb(255, 96, 154);
+}
+#mainspan4:hover{
+    padding: 98px 55px;
+    transition-duration: 0.4s;
+    background-color: rgba(37, 37, 37, 0.733);
+    color: rgb(255, 96, 154);
+}
+#mainspan5:hover{
+    padding: 98px 96px;
+    transition-duration: 0.4s;
+    background-color: rgba(37, 37, 37, 0.733);
+    color: rgb(255, 96, 154);
+}
+#mainspan6:hover{
+    padding: 98px 90px;
+    transition-duration: 0.4s;
+    background-color: rgba(37, 37, 37, 0.733);
+    color: rgb(255, 96, 154);
+}
+
+/* Content */
+.head2{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: AryaBold;
+    font-size: 24px;
+    /* border: 2px solid red; */
+    margin: 5px 0px;
+    padding:10px 25px;
+    border-radius: 5px;
+}
+.head2:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    color: rgb(255, 96, 154);
+
+}
+.photo{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+.box{
+    /* border: 2px solid yellow; */
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px 5px;
+}
+.box img{
+    height: 190px;
+    width: 330px;
+    border-radius: 5px;
+    border: 1px solid rgba(66, 66, 66, 0.5);
+    box-shadow: 0px 0px 15px rgb(66, 66, 66); 
+}
+.box img:hover{
+    box-shadow: 0px 0px 0px rgb(66,66,66);
+    transition-duration: 0.4s;
+}
+.box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 18px;
+    text-align: center;
+    font-family: AryaRegular;
+    /* border: 1px solid red; */
+}
+.box a{
+    text-decoration: none;
+}
+/* Top Button */
+#myBtn {
+    font-family:AryaBold;
+    font-weight: bold;
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 25px; 
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    color: white; 
+    cursor: pointer; 
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 0px 12px;
+    background-color: rgba(80, 80, 80, 0.74);
+}
+  
+#myBtn:hover {
+    transition-duration: 0.4s;
+    color:rgb(255, 96, 154);
+}
+@media screen and (max-width:500px){
+
+    #navbar{
+        position: relative;
+    }
+    #navbar li{
+        color: rgb(255, 96, 154) !important; 
+    }
+    #myBtn {
+        color: rgb(255, 96, 154);
+    }
+    .box img{
+        height: 90px;
+        width: 145px;
+    }
+    .box p{
+        /* border: 2px solid red; */
+        width: 150px;
+        height: 50px;
+        padding: 10px 0px;
+    }
+    .maincontainer p{
+        height: 190px;
+        width: 310px;
+    }
+    #mainspan1:hover{
+        display: none;
+    }
+    #mainspan2:hover{
+        display: none;
+    }
+    #mainspan3:hover{
+        display: none;
+    }
+    #mainspan4:hover{
+        display: none;
+    }
+    #mainspan5:hover{
+        display: none;
+    }
+    #mainspan6:hover{
+        display: none;
+    }
+
+}
+

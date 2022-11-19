@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Wallpaper</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <ul>
+                <a href="/index.html" style="text-decoration: none;"><li>Home</li></a>
+                <a href="/mainhtml/popular.html" style="text-decoration: none;"><li>Popular</li></a>
+                <a href="/mainhtml/favorite.html" style="text-decoration: none;"><li>Favorite</li></a>
+                <a href="/mainhtml/contactus.html" style="text-decoration: none;"><li>Contact Us</li></a>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <p class="head2">Favorite Wallpaper</p>
+    </div>
+    <section class="photo">
+        <div class="box">
+            <a href="/images/Animal/the crimson rosella.jpg" target="_blank"><img src="/images/Animal/the crimson rosella.jpg" alt="The Crimson Rosella"></a>
+            <p>The Crimson Rosella</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/Celebrate Music.jpg" target="_blank"><img src="/images/Culture/Celebrate Music.jpg" alt="Celebrate Music"></a>
+            <p>Celebrate Music</p>
+        </div>
+        <div class="box">
+            <a href="/images/Culture/The Taj Mahal.jpg" target="_blank"><img src="/images/Culture/The Taj Mahal.jpg" alt="The Taj Mahal"></a>
+            <p>The Taj Mahal</p>
+        </div>
+        <div class="box">
+            <a href="/images/FluentDesign/Surface Desktop.jpg" target="_blank"><img src="/images/FluentDesign/Surface Desktop.jpg" alt="Surface Desktop"></a>
+            <p>Surface Desktop</p>
+        </div>
+        <div class="box">
+            <a href="/images/Nature/Atop the Needle of Chamonix.jpg" target="_blank"><img src="/images/Nature/Atop the Needle of Chamonix.jpg" alt="A Top Needle of Chamonix"></a>
+            <p>A Top Needle of Chamonix</p>
+        </div>
+        <div class="box">
+            <a href="/images/Nature/Saffron in bloom.jpg" target="_blank"><img src="/images/Nature/Saffron in bloom.jpg" alt="Saffron in Bloom"></a>
+            <p>Saffron in Bloom</p>
+        </div>
+        <div class="box">
+            <a href="/images/Nature/unforgettable cypress swamp.jpg" target="_blank"><img src="/images/Nature/unforgettable cypress swamp.jpg" alt="Unforgettable Cypress Swamp"></a>
+            <p>Unforgettable Cypress Swamp</p>
+        </div>
+        <div class="box">
+            <a href="/images/Windows/Win11Dark.jpg" target="_blank"><img src="/images/Windows/Win11Dark.jpg" alt="Windows11 Dark"></a>
+            <p>Windows11 Dark</p>
+        </div>
+        <div class="box">
+            <a href="/images/Windows/Win11White.jpg" target="_blank"><img src="/images/Windows/Win11White.jpg" alt="Windows11 White"></a>
+            <p>Windows11 White</p>
+        </div>
+    </section>
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            //Get the button:
+            mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0; // For Safari
+                document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+        </script>
+    </div>
+</body>
+</html>
